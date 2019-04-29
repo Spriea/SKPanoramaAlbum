@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F370F4B92276C7CB0079EDE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F370F4B82276C7CB0079EDE4 /* AppDelegate.m */; };
+		F370F4BC2276C7CB0079EDE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F370F4BB2276C7CB0079EDE4 /* ViewController.m */; };
+		F370F4BF2276C7CB0079EDE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F370F4BD2276C7CB0079EDE4 /* Main.storyboard */; };
+		F370F4C12276C7CD0079EDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F370F4C02276C7CD0079EDE4 /* Assets.xcassets */; };
+		F370F4C42276C7CD0079EDE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F370F4C22276C7CD0079EDE4 /* LaunchScreen.storyboard */; };
+		F370F4C72276C7CD0079EDE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F370F4C62276C7CD0079EDE4 /* main.m */; };
+		F370F4EC2276C8B90079EDE4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F370F4D02276C8B90079EDE4 /* UIView+Frame.m */; };
+		F370F4ED2276C8B90079EDE4 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = F370F4D12276C8B90079EDE4 /* UIImage+Image.m */; };
+		F370F4EE2276C8B90079EDE4 /* SKVRViewerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F370F4D22276C8B90079EDE4 /* SKVRViewerVC.m */; };
+		F370F4EF2276C8B90079EDE4 /* UIColor+XQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F370F4D32276C8B90079EDE4 /* UIColor+XQColor.m */; };
+		F370F4F02276C8B90079EDE4 /* SKPanoramaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F370F4D52276C8B90079EDE4 /* SKPanoramaItem.m */; };
+		F370F4F12276C8B90079EDE4 /* SKVRAblumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F370F4D82276C8B90079EDE4 /* SKVRAblumCell.xib */; };
+		F370F4F22276C8B90079EDE4 /* SKImagesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F370F4DB2276C8B90079EDE4 /* SKImagesView.xib */; };
+		F370F4F32276C8B90079EDE4 /* SKVRAblumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F370F4DC2276C8B90079EDE4 /* SKVRAblumCell.m */; };
+		F370F4F42276C8B90079EDE4 /* SKImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F370F4DD2276C8B90079EDE4 /* SKImagesView.m */; };
+		F370F4F52276C8B90079EDE4 /* 儿童房.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F370F4E02276C8B90079EDE4 /* 儿童房.jpg */; };
+		F370F4F62276C8B90079EDE4 /* 主卧2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F370F4E12276C8B90079EDE4 /* 主卧2.jpg */; };
+		F370F4F72276C8B90079EDE4 /* 餐厅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F370F4E22276C8B90079EDE4 /* 餐厅.jpg */; };
+		F370F4F82276C8B90079EDE4 /* 厨房.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F370F4E32276C8B90079EDE4 /* 厨房.jpg */; };
+		F370F4F92276C8B90079EDE4 /* 走廊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F370F4E42276C8B90079EDE4 /* 走廊.jpg */; };
+		F370F4FA2276C8B90079EDE4 /* 卫生间.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F370F4E52276C8B90079EDE4 /* 卫生间.jpg */; };
+		F370F4FB2276C8B90079EDE4 /* 客厅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F370F4E62276C8B90079EDE4 /* 客厅.jpg */; };
+		F370F4FC2276C8B90079EDE4 /* 书房.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F370F4E72276C8B90079EDE4 /* 书房.jpg */; };
+		F370F4FD2276C8B90079EDE4 /* 主卧.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F370F4E82276C8B90079EDE4 /* 主卧.jpg */; };
+		F370F4FE2276C8B90079EDE4 /* SKVRViewerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F370F4EA2276C8B90079EDE4 /* SKVRViewerVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F370F4B42276C7CB0079EDE4 /* SKPanoramaAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKPanoramaAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F370F4B72276C7CB0079EDE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F370F4B82276C7CB0079EDE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F370F4BA2276C7CB0079EDE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F370F4BB2276C7CB0079EDE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F370F4BE2276C7CB0079EDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F370F4C02276C7CD0079EDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F370F4C32276C7CD0079EDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F370F4C52276C7CD0079EDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F370F4C62276C7CD0079EDE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F370F4CE2276C8B90079EDE4 /* UIColor+XQColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XQColor.h"; sourceTree = "<group>"; };
+		F370F4CF2276C8B90079EDE4 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F370F4D02276C8B90079EDE4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F370F4D12276C8B90079EDE4 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		F370F4D22276C8B90079EDE4 /* SKVRViewerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKVRViewerVC.m; sourceTree = "<group>"; };
+		F370F4D32276C8B90079EDE4 /* UIColor+XQColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XQColor.m"; sourceTree = "<group>"; };
+		F370F4D52276C8B90079EDE4 /* SKPanoramaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPanoramaItem.m; sourceTree = "<group>"; };
+		F370F4D62276C8B90079EDE4 /* SKPanoramaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPanoramaItem.h; sourceTree = "<group>"; };
+		F370F4D82276C8B90079EDE4 /* SKVRAblumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKVRAblumCell.xib; sourceTree = "<group>"; };
+		F370F4D92276C8B90079EDE4 /* SKImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKImagesView.h; sourceTree = "<group>"; };
+		F370F4DA2276C8B90079EDE4 /* SKVRAblumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKVRAblumCell.h; sourceTree = "<group>"; };
+		F370F4DB2276C8B90079EDE4 /* SKImagesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKImagesView.xib; sourceTree = "<group>"; };
+		F370F4DC2276C8B90079EDE4 /* SKVRAblumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKVRAblumCell.m; sourceTree = "<group>"; };
+		F370F4DD2276C8B90079EDE4 /* SKImagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKImagesView.m; sourceTree = "<group>"; };
+		F370F4DE2276C8B90079EDE4 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		F370F4E02276C8B90079EDE4 /* 儿童房.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "儿童房.jpg"; sourceTree = "<group>"; };
+		F370F4E12276C8B90079EDE4 /* 主卧2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "主卧2.jpg"; sourceTree = "<group>"; };
+		F370F4E22276C8B90079EDE4 /* 餐厅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "餐厅.jpg"; sourceTree = "<group>"; };
+		F370F4E32276C8B90079EDE4 /* 厨房.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "厨房.jpg"; sourceTree = "<group>"; };
+		F370F4E42276C8B90079EDE4 /* 走廊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "走廊.jpg"; sourceTree = "<group>"; };
+		F370F4E52276C8B90079EDE4 /* 卫生间.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卫生间.jpg"; sourceTree = "<group>"; };
+		F370F4E62276C8B90079EDE4 /* 客厅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "客厅.jpg"; sourceTree = "<group>"; };
+		F370F4E72276C8B90079EDE4 /* 书房.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "书房.jpg"; sourceTree = "<group>"; };
+		F370F4E82276C8B90079EDE4 /* 主卧.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "主卧.jpg"; sourceTree = "<group>"; };
+		F370F4E92276C8B90079EDE4 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F370F4EA2276C8B90079EDE4 /* SKVRViewerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKVRViewerVC.xib; sourceTree = "<group>"; };
+		F370F4EB2276C8B90079EDE4 /* SKVRViewerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKVRViewerVC.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F370F4B12276C7CB0079EDE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F370F4AB2276C7CB0079EDE4 = {
+			isa = PBXGroup;
+			children = (
+				F370F4B62276C7CB0079EDE4 /* SKPanoramaAlbum */,
+				F370F4B52276C7CB0079EDE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F370F4B52276C7CB0079EDE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F370F4B42276C7CB0079EDE4 /* SKPanoramaAlbum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F370F4B62276C7CB0079EDE4 /* SKPanoramaAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				F370F4CD2276C8B90079EDE4 /* SKPanorama */,
+				F370F4B72276C7CB0079EDE4 /* AppDelegate.h */,
+				F370F4B82276C7CB0079EDE4 /* AppDelegate.m */,
+				F370F4BA2276C7CB0079EDE4 /* ViewController.h */,
+				F370F4BB2276C7CB0079EDE4 /* ViewController.m */,
+				F370F4BD2276C7CB0079EDE4 /* Main.storyboard */,
+				F370F4C02276C7CD0079EDE4 /* Assets.xcassets */,
+				F370F4C22276C7CD0079EDE4 /* LaunchScreen.storyboard */,
+				F370F4C52276C7CD0079EDE4 /* Info.plist */,
+				F370F4C62276C7CD0079EDE4 /* main.m */,
+			);
+			path = SKPanoramaAlbum;
+			sourceTree = "<group>";
+		};
+		F370F4CD2276C8B90079EDE4 /* SKPanorama */ = {
+			isa = PBXGroup;
+			children = (
+				F370F4EB2276C8B90079EDE4 /* SKVRViewerVC.h */,
+				F370F4D22276C8B90079EDE4 /* SKVRViewerVC.m */,
+				F370F4EA2276C8B90079EDE4 /* SKVRViewerVC.xib */,
+				F370F4D72276C8B90079EDE4 /* View */,
+				F370F4D42276C8B90079EDE4 /* Model */,
+				F370F4DF2276C8B90079EDE4 /* Resource */,
+				F370F4CF2276C8B90079EDE4 /* Header.h */,
+				F370F4CE2276C8B90079EDE4 /* UIColor+XQColor.h */,
+				F370F4D32276C8B90079EDE4 /* UIColor+XQColor.m */,
+				F370F4DE2276C8B90079EDE4 /* UIImage+Image.h */,
+				F370F4D12276C8B90079EDE4 /* UIImage+Image.m */,
+				F370F4E92276C8B90079EDE4 /* UIView+Frame.h */,
+				F370F4D02276C8B90079EDE4 /* UIView+Frame.m */,
+			);
+			path = SKPanorama;
+			sourceTree = "<group>";
+		};
+		F370F4D42276C8B90079EDE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F370F4D52276C8B90079EDE4 /* SKPanoramaItem.m */,
+				F370F4D62276C8B90079EDE4 /* SKPanoramaItem.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F370F4D72276C8B90079EDE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F370F4D82276C8B90079EDE4 /* SKVRAblumCell.xib */,
+				F370F4D92276C8B90079EDE4 /* SKImagesView.h */,
+				F370F4DA2276C8B90079EDE4 /* SKVRAblumCell.h */,
+				F370F4DB2276C8B90079EDE4 /* SKImagesView.xib */,
+				F370F4DC2276C8B90079EDE4 /* SKVRAblumCell.m */,
+				F370F4DD2276C8B90079EDE4 /* SKImagesView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F370F4DF2276C8B90079EDE4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F370F4E02276C8B90079EDE4 /* 儿童房.jpg */,
+				F370F4E12276C8B90079EDE4 /* 主卧2.jpg */,
+				F370F4E22276C8B90079EDE4 /* 餐厅.jpg */,
+				F370F4E32276C8B90079EDE4 /* 厨房.jpg */,
+				F370F4E42276C8B90079EDE4 /* 走廊.jpg */,
+				F370F4E52276C8B90079EDE4 /* 卫生间.jpg */,
+				F370F4E62276C8B90079EDE4 /* 客厅.jpg */,
+				F370F4E72276C8B90079EDE4 /* 书房.jpg */,
+				F370F4E82276C8B90079EDE4 /* 主卧.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F370F4B32276C7CB0079EDE4 /* SKPanoramaAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F370F4CA2276C7CD0079EDE4 /* Build configuration list for PBXNativeTarget "SKPanoramaAlbum" */;
+			buildPhases = (
+				F370F4B02276C7CB0079EDE4 /* Sources */,
+				F370F4B12276C7CB0079EDE4 /* Frameworks */,
+				F370F4B22276C7CB0079EDE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKPanoramaAlbum;
+			productName = SKPanoramaAlbum;
+			productReference = F370F4B42276C7CB0079EDE4 /* SKPanoramaAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F370F4AC2276C7CB0079EDE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Somer.King;
+				TargetAttributes = {
+					F370F4B32276C7CB0079EDE4 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = F370F4AF2276C7CB0079EDE4 /* Build configuration list for PBXProject "SKPanoramaAlbum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F370F4AB2276C7CB0079EDE4;
+			productRefGroup = F370F4B52276C7CB0079EDE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F370F4B32276C7CB0079EDE4 /* SKPanoramaAlbum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F370F4B22276C7CB0079EDE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F370F4FC2276C8B90079EDE4 /* 书房.jpg in Resources */,
+				F370F4FD2276C8B90079EDE4 /* 主卧.jpg in Resources */,
+				F370F4F22276C8B90079EDE4 /* SKImagesView.xib in Resources */,
+				F370F4C42276C7CD0079EDE4 /* LaunchScreen.storyboard in Resources */,
+				F370F4F72276C8B90079EDE4 /* 餐厅.jpg in Resources */,
+				F370F4FA2276C8B90079EDE4 /* 卫生间.jpg in Resources */,
+				F370F4FB2276C8B90079EDE4 /* 客厅.jpg in Resources */,
+				F370F4F12276C8B90079EDE4 /* SKVRAblumCell.xib in Resources */,
+				F370F4F52276C8B90079EDE4 /* 儿童房.jpg in Resources */,
+				F370F4F92276C8B90079EDE4 /* 走廊.jpg in Resources */,
+				F370F4C12276C7CD0079EDE4 /* Assets.xcassets in Resources */,
+				F370F4F62276C8B90079EDE4 /* 主卧2.jpg in Resources */,
+				F370F4F82276C8B90079EDE4 /* 厨房.jpg in Resources */,
+				F370F4FE2276C8B90079EDE4 /* SKVRViewerVC.xib in Resources */,
+				F370F4BF2276C7CB0079EDE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F370F4B02276C7CB0079EDE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F370F4F32276C8B90079EDE4 /* SKVRAblumCell.m in Sources */,
+				F370F4EC2276C8B90079EDE4 /* UIView+Frame.m in Sources */,
+				F370F4ED2276C8B90079EDE4 /* UIImage+Image.m in Sources */,
+				F370F4EE2276C8B90079EDE4 /* SKVRViewerVC.m in Sources */,
+				F370F4EF2276C8B90079EDE4 /* UIColor+XQColor.m in Sources */,
+				F370F4BC2276C7CB0079EDE4 /* ViewController.m in Sources */,
+				F370F4F42276C8B90079EDE4 /* SKImagesView.m in Sources */,
+				F370F4C72276C7CD0079EDE4 /* main.m in Sources */,
+				F370F4B92276C7CB0079EDE4 /* AppDelegate.m in Sources */,
+				F370F4F02276C8B90079EDE4 /* SKPanoramaItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F370F4BD2276C7CB0079EDE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F370F4BE2276C7CB0079EDE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F370F4C22276C7CD0079EDE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F370F4C32276C7CD0079EDE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F370F4C82276C7CD0079EDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F370F4C92276C7CD0079EDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F370F4CB2276C7CD0079EDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J74EH4F9KL;
+				INFOPLIST_FILE = SKPanoramaAlbum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = somer.SKPanoramaAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F370F4CC2276C7CD0079EDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J74EH4F9KL;
+				INFOPLIST_FILE = SKPanoramaAlbum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = somer.SKPanoramaAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F370F4AF2276C7CB0079EDE4 /* Build configuration list for PBXProject "SKPanoramaAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F370F4C82276C7CD0079EDE4 /* Debug */,
+				F370F4C92276C7CD0079EDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F370F4CA2276C7CD0079EDE4 /* Build configuration list for PBXNativeTarget "SKPanoramaAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F370F4CB2276C7CD0079EDE4 /* Debug */,
+				F370F4CC2276C7CD0079EDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F370F4AC2276C7CB0079EDE4 /* Project object */;
+}
