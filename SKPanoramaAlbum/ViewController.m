@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SKVRViewerVC.h"
 
 @interface ViewController ()
 
@@ -20,7 +21,8 @@
 }
 
 - (IBAction)jumpToPanorama:(id)sender {
-    
+    SKVRViewerVC *panoramaVC = [[SKVRViewerVC alloc] init];
+    [self.navigationController pushViewController:panoramaVC animated:YES];
 }
 
 @end
