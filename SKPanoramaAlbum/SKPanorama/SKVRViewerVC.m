@@ -16,6 +16,7 @@
 
 #define kScreenH [UIScreen mainScreen].bounds.size.height
 #define kScreenW [UIScreen mainScreen].bounds.size.width
+#define kNavH ([[UIApplication sharedApplication] statusBarFrame].size.height + self.navigationController.navigationBar.frame.size.height)
 
 #define ES_PI  (3.14159265f)
 #define kMargin 15 // 默认边距
@@ -129,15 +130,6 @@
     [self.images addObject:pItem1];
 }
 
-#pragma mark - 判断当前网络
-
-#pragma mark - 初始化导航栏
-//- (void)setupNav{
-//    
-//    self.navigationItem.leftBarButtonItem = [BarBtnTool barItemWithTarget:self img:@"imgback" imgHeigth:nil action:@selector(backBtn)];
-//    self.title = @"内饰全景";
-//}
-
 #pragma mark - 初始化创建滑动相册
 - (void)setupPhoto{
     // 相册
@@ -167,6 +159,7 @@
 - (void)setupGravity{
     
 }
+
 - (void)changeG:(UIButton *)btn{
     btn.selected = btn.isSelected;
     if (btn.isSelected) {
@@ -408,8 +401,8 @@ int esGenSphere(int numSlices, float radius, float **vertices,
     self.scale = 1.0;
     
     /// 单击手势
-//    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
-//    [self.view addGestureRecognizer:tap];
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
+    [self.view addGestureRecognizer:tap];
 }
 
 - (void)panAction:(UIPanGestureRecognizer *)pan{
@@ -523,11 +516,12 @@ int esGenSphere(int numSlices, float radius, float **vertices,
     //设置导航条文字属性
     titleDict[NSForegroundColorAttributeName] = [UIColor whiteColor];
     [self.navigationController.navigationBar setTitleTextAttributes:titleDict];
+    
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
 }
 - (void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
-//    [self.imagesView removeFromSuperview];
 }
 #pragma mark - 返回按钮
 - (void)backBtn {
@@ -538,12 +532,12 @@ int esGenSphere(int numSlices, float radius, float **vertices,
 - (void)changeView{
     if (self.navigationController.navigationBar.sk_y <= 0) {// 显示
         [UIView animateWithDuration:0.3f animations:^{
-            self.navigationController.navigationBar.sk_y = 0;
+            self.navigationController.navigationBar.sk_y = [[UIApplication sharedApplication] statusBarFrame].size.height;
             self.imagesView.sk_y = kScreenH - 2 * kVRImagesHeight;
         }];
     }else{
         [UIView animateWithDuration:0.3f animations:^{// 隐藏
-            self.navigationController.navigationBar.sk_y = -self.navigationController.navigationBar.sk_heigth;
+            self.navigationController.navigationBar.sk_y = - kNavH;
             self.imagesView.sk_y = kScreenH;
         }];
     }

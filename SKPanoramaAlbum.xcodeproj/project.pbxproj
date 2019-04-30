@@ -150,12 +150,12 @@
 		F370F4D72276C8B90079EDE4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F370F4D82276C8B90079EDE4 /* SKVRAblumCell.xib */,
 				F370F4D92276C8B90079EDE4 /* SKImagesView.h */,
-				F370F4DA2276C8B90079EDE4 /* SKVRAblumCell.h */,
-				F370F4DB2276C8B90079EDE4 /* SKImagesView.xib */,
-				F370F4DC2276C8B90079EDE4 /* SKVRAblumCell.m */,
 				F370F4DD2276C8B90079EDE4 /* SKImagesView.m */,
+				F370F4DB2276C8B90079EDE4 /* SKImagesView.xib */,
+				F370F4DA2276C8B90079EDE4 /* SKVRAblumCell.h */,
+				F370F4DC2276C8B90079EDE4 /* SKVRAblumCell.m */,
+				F370F4D82276C8B90079EDE4 /* SKVRAblumCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
