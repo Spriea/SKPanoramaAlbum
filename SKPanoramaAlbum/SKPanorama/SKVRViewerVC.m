@@ -516,8 +516,6 @@ int esGenSphere(int numSlices, float radius, float **vertices,
     //设置导航条文字属性
     titleDict[NSForegroundColorAttributeName] = [UIColor whiteColor];
     [self.navigationController.navigationBar setTitleTextAttributes:titleDict];
-    
-    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
 }
 - (void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
